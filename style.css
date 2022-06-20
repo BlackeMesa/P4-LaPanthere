@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -276,7 +276,9 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
-
+.col-xs-offset-1 {
+    margin-left: 8.33333333%;
+}
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -819,6 +821,16 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
+.contact-info{
+     height: 4  0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+line-height: 35px;
+margin: 20px 0px;
+
+}
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
@@ -829,11 +841,42 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-2560w.webp");
+}
+@media screen and (max-width: 1919px) {
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere-1920w.webp");
+  }
+}
+@media screen and (max-width: 991px) {
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere-992w.webp");
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-banniere {
+    background-image: url("img/agence-la-panthere-768w.webp");
+  }
 }
 
+
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-2560w.webp");
+}
+@media screen and (max-width: 1919px) {
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-1920w.webp");
+  }
+}
+@media screen and (max-width: 991px) {
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-992w.webp");
+  }
+}
+@media screen and (max-width: 767px) {
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-768w.webp");
+  }
 }
 
 @media (max-width: 1024px) {
@@ -884,8 +927,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -933,6 +976,13 @@ h4 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+    }
+    .portfolio-item{
+        margin-bottom: 60px;
+    }
+    .social{
+        display: flex;
+justify-content: space-around;
     }
     .nav > li {
         margin-top: 0;
@@ -991,7 +1041,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .bloc-sm,
     .bloc-md {
