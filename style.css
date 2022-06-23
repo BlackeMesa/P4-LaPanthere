@@ -136,7 +136,7 @@ a:hover {
     color: white;;
 }
 .footer-icon-md{
-      color:#464343;
+      color:black;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -793,7 +793,7 @@ h4 {
     position: relative;
 }
 .footer-white{
-    color:#464343;
+    color:black;
     font-size: 18px;
     font-weight: 700;
 }
