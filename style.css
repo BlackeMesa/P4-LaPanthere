@@ -133,9 +133,11 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: white;
+    color: white;;
 }
-
+.footer-icon-md{
+      color:#464343;
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -790,7 +792,11 @@ h4 {
     text-shadow: 0 0 3px #000;
     position: relative;
 }
-
+.footer-white{
+    color:#464343;
+    font-size: 18px;
+    font-weight: 700;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
