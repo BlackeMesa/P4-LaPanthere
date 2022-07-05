@@ -754,6 +754,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 295px;
+    height: 295px;
 }
 
 .portfolio-row {
@@ -986,6 +988,11 @@ margin: 20px 0px;
     .portfolio-item{
         margin-bottom: 60px;
     }
+    .portfolio-thumb {
+    
+    width: 384.4px;
+    height: 384.4px;
+}
     .social{
         display: flex;
 justify-content: space-around;
