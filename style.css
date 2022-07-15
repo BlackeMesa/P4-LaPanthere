@@ -650,7 +650,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 200px;
     margin: auto auto auto auto;
 }
 
@@ -775,14 +775,6 @@ margin: 20px 0px;
 
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere-1920w.webp");
 }
@@ -792,27 +784,12 @@ margin: 20px 0px;
     background-image: url("img/image-de-presentation-1920w.webp");
 }
 
-
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
+.fa-brands {
+    font-size: 25px;
+    
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media (max-width: 991px) {
-   
-}
-@media (min-width: 768px) and (max-width: 991px)  {
-    .navbar .nav {
-        max-width: 80%
-    }
+@media screen and (max-width: 991px)  {
     .nav-center.navbar .nav {
         max-width: 100%
     }
@@ -843,7 +820,7 @@ margin: 20px 0px;
         padding-right: 0px;
     }
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -867,33 +844,34 @@ margin: 20px 0px;
         margin-left: 0;
         margin-right: 0;
     }
+
     .site-navigation {
         position: inherit;
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
     }
+
     .portfolio-item{
         margin-bottom: 60px;
     }
-    .portfolio-thumb {
     
-    width: 384.4px;
-    height: 384.4px;
-}
+    .portfolio-thumb {
+        width: 384.4px;
+        height: 384.4px;
+    }
+    
     .social{
         display: flex;
-justify-content: space-around;
+        justify-content: space-around;
     }
     .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
+        text-align: center;
+        /* padding-left: 15px; */
         width: 100%;
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
@@ -905,12 +883,6 @@ justify-content: space-around;
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
-    }
-    #hero-bloc .navbar .nav {
-        background: rgba(0, 0, 0, .8);
-    }
-    #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
     }
     .hero {
         padding: 50px 0;
@@ -926,8 +898,9 @@ justify-content: space-around;
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 30px;
         width: auto;
+        margin: 0 55%;
     }
     .nav-invert .navbar-header {
         float: none;
